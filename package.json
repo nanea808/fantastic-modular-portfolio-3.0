@@ -1,0 +1,14 @@
+{
+  "name": "fantastic-modular-portfolio-3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd client && next dev",
+    "build": "cd client && next build",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
