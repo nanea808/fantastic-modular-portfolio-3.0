@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cd client && next dev",
-    "build": "cd client && next build",
-    "lint": "next lint"
+    "install": "cd client && npm install",
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run",
+    "lint": "cd client && npm lint"
   },
   "keywords": [],
   "author": "",

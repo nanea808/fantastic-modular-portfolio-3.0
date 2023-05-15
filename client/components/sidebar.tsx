@@ -20,17 +20,15 @@ export default function NavBar() {
   return (
     <aside className="border-2 border-black">
       <nav className="">
-        <ul>
+        <div className="flex flex-col">
           {Object.entries(navItems).map(([path, { name }]) => {
             return (
-              <li>
-                <Link key={path} href={path}>
-                  <span>{name}</span>
-                </Link>
-              </li>
+              <Link key={path} href={path}>
+                <span>{name}</span>
+              </Link>
             ); /* #stilish sidebar (very sexxy) */
           })}
-        </ul>
+        </div>
       </nav>
     </aside>
   );
