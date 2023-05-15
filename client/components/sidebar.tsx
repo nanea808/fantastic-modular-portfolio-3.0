@@ -20,7 +20,7 @@ export default function NavBar() {
   return (
     <aside className="border-2 border-black">
       <nav className="">
-        <div className="flex flex-col">
+        <div className="flex flex-row">
           {Object.entries(navItems).map(([path, { name }]) => {
             return (
               <Link key={path} href={path}>
