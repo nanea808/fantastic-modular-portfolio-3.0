@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Helvetica', 'Arial', 'sans-serif'],
+        serif: ['var(--font-playfairDisplay)']
+      },
+      colors: {
+        //add custom colors (kill the global.css!)
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
