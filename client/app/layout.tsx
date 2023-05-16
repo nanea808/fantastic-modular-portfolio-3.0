@@ -1,18 +1,25 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Sidebar from "../components/sidebar";
+import localFont from "next/font/local";
+
+const playfairDisplay = localFont({
+  src: "../public/fonts/PlayfairDisplay-VariableFont_wght.woff2",
+  variable: "--font-playfairDisplay",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
-    default: 'Ethan Willers',
-    template: '%s | Ethan Willers',
+    default: "Ethan Willers",
+    template: "%s | Ethan Willers",
   },
-  description: 'I dont know what to do.',
+  description: "I dont know what to do.",
   openGraph: {
-    title: 'Ethan Willers',
-    description: 'I dont know what to do.',
-    url: '',
-    siteName: 'Ethan Willers',
+    title: "Ethan Willers",
+    description: "I dont know what to do.",
+    url: "",
+    siteName: "Ethan Willers",
     // images: [
     //   {
     //     url: '',
@@ -20,8 +27,8 @@ export const metadata: Metadata = {
     //     height: 1080,
     //   },
     // ],
-    locale: 'en-US',
-    type: 'website',
+    locale: "en-US",
+    type: "website",
   },
   robots: {
     index: true,
@@ -29,17 +36,17 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
   twitter: {
-    title: 'Ethan Willers',
-    card: 'summary_large_image',
+    title: "Ethan Willers",
+    card: "summary_large_image",
   },
   icons: {
-    shortcut: '/favicon.ico',
+    shortcut: "/favicon.ico",
   },
   // verification: {
   //   google: '',
@@ -53,12 +60,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
+    <html lang="en" className={playfairDisplay.variable}>
+      <body className="antialiased max-w-4xl mb-40 flex justify-center flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
         <Sidebar />
-        <main className="border-2 border-black">
-          {children}
-        </main>
+        <main>{children}</main>
       </body>
     </html>
   );

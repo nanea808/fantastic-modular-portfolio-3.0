@@ -4,7 +4,7 @@
 
 :root {
   --periwinkle-blue: #67BFFF;
-  --darkness-start: #000000;
+  --darkness-start: #111010;
 }
 
 @media (prefers-color-scheme: light) {
@@ -15,7 +15,6 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
   color: var(--periwinkle-blue);
   background: var(--darkness-start);
 }
