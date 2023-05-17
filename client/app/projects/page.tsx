@@ -1,4 +1,6 @@
-// imports
+async function getData() {
+  const res = await fetch('https://localhost:3001/api/projects');
+}
 
 export default function Home() {
   return (
