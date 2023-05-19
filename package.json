@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "install": "cd client && npm install",
-    "dev": "cd client && npm run dev",
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
     "build": "cd client && npm run build",
     "lint": "cd client && npm run lint",
-    "start": "cd server && npm run start"
+    "start": "cd server && npm run start",
+    "watch": "cd server && npm run watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
 }
