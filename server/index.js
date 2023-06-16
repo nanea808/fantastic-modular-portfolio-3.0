@@ -18,6 +18,6 @@ app.use(routes);
 // connect to database
 db.once('open', () => {
     app.listen(PORT, () => {
-        console.log(`${cwd} server running on https://localhost:${PORT}`);
+        console.log(`${cwd} server running on http://localhost:${PORT}`);
     });
 });
