@@ -1,0 +1,25 @@
+[
+    {
+        "title": "01-project-dosequis-api",
+        "repo": "https://github.com/nanea808/01-project-dosequis-api",
+        "description": "Weather for Ticketmaster events",
+        "deployment": "https://nanea808.github.io/01-project-dosequis-api/"
+    },
+    {
+        "title": "Present Pear",
+        "repo": "https://github.com/nanea808/2nd-project-team-4",
+        "description": "A gift registry app for parties and events",
+        "deployment": "https://present-pear.herokuapp.com/"
+    },
+    {
+        "title": "Task-A-Saurus",
+        "repo": "https://github.com/nanea808/3rd-project-boot-campers",
+        "description": "A listing website for crowdfunding tasks",
+        "deployment": "https://taskasaurus-app.herokuapp.com/"
+    },
+    {
+        "title": "Skii Bawler 3000",
+        "repo": "https://github.com/nanea808/skii-bawler-3000",
+        "description": "A 3D Skee-Ball Game in Unity"
+    }
+]

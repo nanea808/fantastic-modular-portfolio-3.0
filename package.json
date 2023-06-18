@@ -9,7 +9,8 @@
     "build": "cd client && npm run build",
     "lint": "cd client && npm run lint",
     "start": "cd server && npm run start",
-    "watch": "cd server && npm run watch"
+    "watch": "cd server && npm run watch",
+    "seed": "cd server && npm run seed"
   },
   "keywords": [],
   "author": "",
