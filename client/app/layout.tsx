@@ -14,10 +14,10 @@ export const metadata: Metadata = {
     default: "Ethan Willers",
     template: "%s | Ethan Willers",
   },
-  description: "I dont know what to do.",
+  description: "A portfolio to display my projects and web development skills.",
   openGraph: {
     title: "Ethan Willers",
-    description: "I dont know what to do.",
+    description: "A portfolio to display my projects and web development skills.",
     url: "",
     siteName: "Ethan Willers",
     // images: [
