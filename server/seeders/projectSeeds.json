@@ -21,5 +21,28 @@
         "title": "Skii Bawler 3000",
         "repo": "https://github.com/nanea808/skii-bawler-3000",
         "description": "A 3D Skee-Ball Game in Unity"
+    },
+    {
+        "title": "React Portfolio 2022",
+        "repo": "https://github.com/nanea808/20-react-portfolio-refactor",
+        "description": "My 2nd 2022 portfolio refactored using react",
+        "deployment": "https://nanea808.github.io/20-react-portfolio-refactor/"
+    },
+    {
+        "title": "Original 2022 Portfolio",
+        "repo": "https://github.com/nanea808/portfolio-ethan-willers",
+        "description": "My first portfolio showcasing basic HTML, CSS, and Javascript skills",
+        "deployment": "https://nanea808.github.io/portfolio-ethan-willers/"
+    },
+    {
+        "title": "Weather Dashboard",
+        "repo": "https://github.com/nanea808/06-weather-challenge",
+        "description": "A simple weather dashboard that gives a five day forecast",
+        "deployment": "https://nanea808.github.io/06-weather-challenge/"
+    },
+    {
+        "title": "Tech Blog",
+        "repo": "https://github.com/nanea808/14-tech-blog-challenge",
+        "description": "This is a simple tech blog"
     }
 ]
