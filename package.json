@@ -11,7 +11,7 @@
     "start": "concurrently \"node server/index\" \"cd client && npm run start\"",
     "watch": "cd server && npm run watch",
     "seed": "cd server && npm run seed",
-    "heroku-postbuild": "npm run install-all && node server/index && npm run build"
+    "heroku-postbuild": "npm run install-all && concurrently \"node server/index\" \"npm run build\""
     
   },
   "keywords": [],
