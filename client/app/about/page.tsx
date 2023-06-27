@@ -5,9 +5,9 @@ export default function About() {
     <div>
       <h1 className="font-bold text-3xl font-serif">About</h1>
       <p className="my-5 max-w-[460px] font-sans">
-        I'm very passionate about computers and the ever-evolving world wide
-        web. I believe in a safe and accessible web. I'm constantly exploring
-        ways to better a user's experience through responsive design and secure
+        I&apos;m very passionate about computers and the ever-evolving world wide
+        web. I believe in a safe and accessible web. I&apos;m constantly exploring
+        ways to better a user&apos;s experience through responsive design and secure
         data. I tend to enjoy working on the backends of websites a lot, though
         I come from a family of artists and love bringing beautiful website
         layouts to life.

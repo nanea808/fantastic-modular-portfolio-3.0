@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cd client && npm install",
+    "install-all": "npm i && cd client && npm i && cd ../server && npm i",
     "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
     "build": "cd client && npm run build",
     "lint": "cd client && npm run lint",
-    "start": "cd server && npm run start",
+    "start": "concurrently \"node server/index\" \"cd client && npm run start\"",
     "watch": "cd server && npm run watch",
-    "seed": "cd server && npm run seed"
+    "seed": "cd server && npm run seed",
+    "heroku-postbuild": "npm run install-all && npm run build"
+    
   },
   "keywords": [],
   "author": "",
