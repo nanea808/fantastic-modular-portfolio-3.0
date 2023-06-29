@@ -83,12 +83,12 @@ export default async function Home() {
               className="flex flex-row justify-between max-w-[460px]"
             >
               <div className="pe-4 mb-4">
-                <a href={repo} className="font-serif font-bold text-lg">
+                <a href={repo} className="font-serif font-bold text-lg hover:text-neutral-600 dark:hover:text-neutral-100">
                   {title}
                 </a>
                 <p>{description}</p>
               </div>
-              <div className="border-2 border-blue-300 rounded-full px-2 hover:bg-slate-500 self-center">
+              <div className="self-center border-2 border-neutral-300 dark:border-blue-300 rounded-full px-2 hover:bg-slate-100 dark:hover:bg-slate-500 dark:hover:text-neutral-100">
                 {deployment ? (
                   <Link href={deployment}>
                     <span>Active</span>
