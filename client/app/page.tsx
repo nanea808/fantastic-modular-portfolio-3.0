@@ -19,7 +19,7 @@ export default function Home() {
               rel="noopener noreferrer"
               target="_blank"
               href="mailto:willers.enw@gmail.com"
-              className="flex items-center gap-2 px-2 hover:bg-neutral-800 rounded-md"
+              className="flex items-center gap-2 px-2 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md"
             >
               Email
             </a>
@@ -27,7 +27,7 @@ export default function Home() {
               rel="noopener noreferrer"
               target="_self"
               href="tel:5415056798"
-              className="flex items-center gap-2 px-2 hover:bg-neutral-800 rounded-md"
+              className="flex items-center gap-2 px-2 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md"
             >
               Phone
             </a>
@@ -37,7 +37,7 @@ export default function Home() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://github.com/nanea808"
-              className="flex items-center gap-2 px-2 hover:bg-neutral-800 rounded-md"
+              className="flex items-center gap-2 px-2 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md"
             >
               GitHub
             </a>
@@ -45,7 +45,7 @@ export default function Home() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://twitter.com/nanea808"
-              className="flex items-center gap-2 px-2 hover:bg-neutral-800 rounded-md"
+              className="flex items-center gap-2 px-2 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md"
             >
               Twitter
             </a>
@@ -53,7 +53,7 @@ export default function Home() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/ethan-willers/"
-              className="flex items-center gap-2 px-2 hover:bg-neutral-800 rounded-md"
+              className="flex items-center gap-2 px-2 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md"
             >
               LinkedIn
             </a>

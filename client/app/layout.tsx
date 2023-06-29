@@ -10,6 +10,8 @@ const playfairDisplay = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.enwportfolio.page'),
+
   title: {
     default: "Ethan Willers",
     template: "%s | Ethan Willers",
@@ -18,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ethan Willers",
     description: "A portfolio to display my projects and web development skills.",
-    url: "",
+    url: "https://www.enwportfolio.page",
     siteName: "Ethan Willers",
     // images: [
     //   {
