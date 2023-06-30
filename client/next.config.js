@@ -1,4 +1,18 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+//   webpack: (config, options) => {
+//     config.module.rules.push({
+//       test: /\.(pdf)$/i,
+//       use: [{
+//         loader: 'file-loader',
+//         options: {
+//             name: '[name].[ext]'
+//         }
+//       }],
+//     });
 
-module.exports = nextConfig
+//     return config;
+//   },
+};
+
+module.exports = nextConfig;
