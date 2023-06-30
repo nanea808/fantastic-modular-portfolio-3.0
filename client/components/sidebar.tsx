@@ -14,6 +14,9 @@ const navItems = {
   "/projects": {
     name: "projects",
   },
+  "/resume": {
+    name: "resume"
+  },
 };
 
 export default function NavBar() {

@@ -15,7 +15,8 @@ export default function Home() {
       <div className="flex justify-around items-center flex-col md:flex-row">
         <div className="flex flex-col items-center mb-4 text-l font-bold font-serif">
           <div className="flex flex-row">
-          <a
+            <a
+              key={1}
               rel="noopener noreferrer"
               target="_blank"
               href="mailto:willers.enw@gmail.com"
@@ -24,6 +25,7 @@ export default function Home() {
               Email
             </a>
             <a
+              key={2}
               rel="noopener noreferrer"
               target="_self"
               href="tel:5415056798"
@@ -33,7 +35,8 @@ export default function Home() {
             </a>
           </div>
           <div className="flex flex-row ">
-          <a
+            <a
+              key={3}
               rel="noopener noreferrer"
               target="_blank"
               href="https://github.com/nanea808"
@@ -42,6 +45,7 @@ export default function Home() {
               GitHub
             </a>
             <a
+              key={4}
               rel="noopener noreferrer"
               target="_blank"
               href="https://twitter.com/nanea808"
@@ -50,6 +54,7 @@ export default function Home() {
               Twitter
             </a>
             <a
+              key={5}
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/ethan-willers/"
