@@ -4,11 +4,10 @@ export default function Resume() {
   return (
     <div>
       <iframe
-        width={500}
-        height={600}
+        width={850}
+        height={800}
         src="ethans_resume_2023.docx.pdf"
         title="ethans resume"
-        className="border-none"
       ></iframe>
     </div>
   );
