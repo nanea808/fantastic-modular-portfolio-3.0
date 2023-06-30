@@ -10,6 +10,8 @@ const playfairDisplay = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.enwportfolio.page'),
+
   title: {
     default: "Ethan Willers",
     template: "%s | Ethan Willers",
@@ -18,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ethan Willers",
     description: "A portfolio to display my projects and web development skills.",
-    url: "",
+    url: "https://www.enwportfolio.page",
     siteName: "Ethan Willers",
     // images: [
     //   {
@@ -61,7 +63,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={playfairDisplay.variable}>
-      <body className="antialiased max-w-4xl mb-40 flex justify-center flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
+      <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
         <Sidebar />
         <main>{children}</main>
       </body>

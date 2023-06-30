@@ -14,6 +14,9 @@ const navItems = {
   "/projects": {
     name: "projects",
   },
+  "/resume": {
+    name: "resume"
+  },
 };
 
 export default function NavBar() {
@@ -26,7 +29,7 @@ export default function NavBar() {
           {Object.entries(navItems).map(([path, { name }]) => {
             const isActive = path === pathname;
             return (
-              <Link key={path} href={path} prefetch={false} className={clsx(
+              <Link key={path} href={path} className={clsx(
                 'transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle',
                 {
                   'text-neutral-500': !isActive,
