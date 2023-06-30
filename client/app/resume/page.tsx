@@ -8,6 +8,7 @@ export default function Resume() {
         height={600}
         src="ethans_resume_2023.docx.pdf"
         title="ethans resume"
+        className="border-none"
       ></iframe>
     </div>
   );
