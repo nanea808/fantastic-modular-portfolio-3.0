@@ -6,6 +6,12 @@
 
 The third rendition of my professional web developer portfolio website using my new favorite build pack next.js. Including a custom backend api for handling project data using express and mongodb.
 
+## Visuals
+
+:star: Check out the style! :star:
+
+![Website Layout](./client/public/images/Screenshot%20from%202023-07-01%2022-44-23.png)
+
 ## Usage
 
 1. Click on the nav-bar to navigate through the pages.
