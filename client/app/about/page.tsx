@@ -41,7 +41,7 @@ export default function About() {
       </div>
       <p className="my-5 max-w-[460px] font-sans">
         These are my wonderfull cats Sebastian and Greybles. Sebastian was a
-        stray when my girlfriend Maisey befrended and Greybles is our wonderfull treasure from craigslist.
+        stray that my girlfriend Maisey befrended and Greybles is our wonderfull treasure from craigslist.
       </p>
     </div>
   );
